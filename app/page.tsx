@@ -17,6 +17,12 @@ export default function Home() {
         <h1 className="mt-2">Hello World</h1>
         <h1 className="mt-8">Hello World</h1>
       </div>
+      {/* Tailwind layer background */}
+      <div>
+        <h1>
+          Hello World
+        </h1>
+      </div>
     </div>
   );
 }

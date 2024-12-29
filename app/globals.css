@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* This apply for all elements */
+@layer base {
+  html {
+    /* background-color: lime; */
+    @apply bg-[#bada55];
+    @apply text-white;
+  }
+}
