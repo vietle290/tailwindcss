@@ -12,6 +12,11 @@ export default function Home() {
       <div>
         <h1 className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello World</h1>
       </div>
+      {/* Tailwind spacing */}
+      <div>
+        <h1 className="mt-2">Hello World</h1>
+        <h1 className="mt-8">Hello World</h1>
+      </div>
     </div>
   );
 }
