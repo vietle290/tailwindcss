@@ -8,6 +8,10 @@ export default function Home() {
         <h1 className="text-vuejs-200">Hello World</h1>
         <h1 className="text-vuejs-100">Hello World</h1>
       </div>
+      {/* Tailwind text size */}
+      <div>
+        <h1 className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello World</h1>
+      </div>
     </div>
   );
 }
