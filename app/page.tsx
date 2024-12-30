@@ -94,6 +94,18 @@ export default function Home() {
         <p className="break-all">Hello World</p>
         <p className="break-keep">Hello World</p>
       </div>
+      {/*---------------------------------------*/}
+      {/* Tailwind Spaces & Sizes */}
+      {/* Tailwind Padding */}
+      <div>
+        <p className="p-0">Hello World</p>
+        <p className="pt-0">Hello World</p>
+        <p className="pr-0">Hello World</p>
+        <p className="pb-0">Hello World</p>
+        <p className="pl-0">Hello World</p>
+        <p className="px-0">Hello World</p>
+        <p className="py-0">Hello World</p>
+      </div>
     </div>
   );
 }
