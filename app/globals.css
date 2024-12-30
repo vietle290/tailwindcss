@@ -25,6 +25,8 @@ body {
   html {
     /* background-color: lime; */
     @apply bg-[#bada55];
-    @apply text-white;
+
+    /* font family */
+    font-family: 'Inter', sans-serif;
   }
 }

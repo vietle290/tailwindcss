@@ -34,6 +34,10 @@ export default function Home() {
         <p className="text-3xl">Hello World</p>
         <p className="text-4xl">Hello World</p>
       </div>
+      {/* Tailwind Typography Font Style*/}
+      <div>
+        <p className="italic">Hello World</p>
+      </div>
     </div>
   );
 }
