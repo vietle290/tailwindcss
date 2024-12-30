@@ -70,6 +70,12 @@ export default function Home() {
         <p className="text-capitalize">Hello World</p>
         <p className="text-normal-case">Hello World</p>
       </div>
+      {/* Tailwind Typography Text Overflow */}
+      <div>
+        <p className="text-ellipsis">Hello World</p>
+        <p className="truncate">Hello World</p>
+        <p className="text-clip">Hello World</p>
+      </div>
     </div>
   );
 }
