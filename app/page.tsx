@@ -38,6 +38,17 @@ export default function Home() {
       <div>
         <p className="italic">Hello World</p>
       </div>
+      {/* Tailwind Typography All Text Decoration*/}
+      <div>
+        <p className="underline">Hello World</p>
+        <p className="line-through">Hello World</p>
+        <p className="text-decoration-underline">Hello World</p>
+        <p className="text-decoration-line-through">Hello World</p>
+        <p className="decoration-solid">Hello World</p>
+        <p className="decoration-dotted">Hello World</p>
+        <p className="decoration-dashed">Hello World</p>
+        <p className="decoration-double">Hello World</p>
+      </div>
     </div>
   );
 }
