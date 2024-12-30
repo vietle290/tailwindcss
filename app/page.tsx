@@ -49,6 +49,20 @@ export default function Home() {
         <p className="decoration-dashed">Hello World</p>
         <p className="decoration-double">Hello World</p>
       </div>
+      {/* Tailwind Typography Line Height */}
+      <div>
+        <p className="leading-5">Hello World</p>
+        <p className="leading-6">Hello World</p>
+        <p className="leading-7">Hello World</p>
+        <p className="leading-8">Hello World</p>
+        <p className="leading-9">Hello World</p>
+        <p className="leading-10">Hello World</p>
+        <p className="leading-11">Hello World</p>
+        <p className="leading-none">Hello World</p>
+        <p className="leading-tight">Hello World</p>
+        <p className="leading-snug">Hello World</p>
+        <p className="leading-normal">Hello World</p>
+      </div>
     </div>
   );
 }
