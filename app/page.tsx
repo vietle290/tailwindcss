@@ -76,6 +76,17 @@ export default function Home() {
         <p className="truncate">Hello World</p>
         <p className="text-clip">Hello World</p>
       </div>
+      {/* Tailwind Typography Whitespace */}
+      <div>
+        <p className="whitespace-nowrap">Hello World</p>
+        <p className="whitespace-nowrap break-spaces">Hello World</p>
+        <p className="whitespace-nowrap break-all">Hello World</p>
+        <p className="whitespace-nowrap break-words">Hello World</p>
+        <p className="whitespace-normal">Hello World</p>
+        <p className="whitespace-pre">Hello World</p>
+        <p className="whitespace-pre-wrap">Hello World</p>
+        <p className="whitespace-pre-line">Hello World</p>
+      </div>
     </div>
   );
 }
