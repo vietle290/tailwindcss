@@ -87,6 +87,13 @@ export default function Home() {
         <p className="whitespace-pre-wrap">Hello World</p>
         <p className="whitespace-pre-line">Hello World</p>
       </div>
+      {/* Tailwind Typography Word Break */}
+      <div>
+        <p className="break-normal">Hello World</p>
+        <p className="break-words">Hello World</p>
+        <p className="break-all">Hello World</p>
+        <p className="break-keep">Hello World</p>
+      </div>
     </div>
   );
 }
