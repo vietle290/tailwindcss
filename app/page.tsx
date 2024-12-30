@@ -106,6 +106,16 @@ export default function Home() {
         <p className="px-0">Hello World</p>
         <p className="py-0">Hello World</p>
       </div>
+      {/* Tailwind Margin */}
+      <div>
+        <p className="m-0">Hello World</p>
+        <p className="mt-0">Hello World</p>
+        <p className="mr-0">Hello World</p>
+        <p className="mb-0">Hello World</p>
+        <p className="ml-0">Hello World</p>
+        <p className="mx-0">Hello World</p>
+        <p className="my-0">Hello World</p>
+      </div>
     </div>
   );
 }
