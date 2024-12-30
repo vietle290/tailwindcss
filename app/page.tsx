@@ -63,6 +63,13 @@ export default function Home() {
         <p className="leading-snug">Hello World</p>
         <p className="leading-normal">Hello World</p>
       </div>
+      {/* Tailwind Typography Text Transform */}
+      <div>
+        <p className="text-uppercase">Hello World</p>
+        <p className="text-lowercase">Hello World</p>
+        <p className="text-capitalize">Hello World</p>
+        <p className="text-normal-case">Hello World</p>
+      </div>
     </div>
   );
 }
