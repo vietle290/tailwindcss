@@ -23,6 +23,17 @@ export default function Home() {
           Hello World
         </h1>
       </div>
+      {/* Tailwind Typography Font Size base on config on tailwind.config.js */}
+      <div>
+        <p className="text-xs">Hello World</p>
+        <p className="text-sm">Hello World</p>
+        <p className="text-base">Hello World</p>
+        <p className="text-lg">Hello World</p>
+        <p className="text-xl">Hello World</p>
+        <p className="text-2xl">Hello World</p>
+        <p className="text-3xl">Hello World</p>
+        <p className="text-4xl">Hello World</p>
+      </div>
     </div>
   );
 }
