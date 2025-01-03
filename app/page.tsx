@@ -10,7 +10,9 @@ export default function Home() {
       </div>
       {/* Tailwind text size */}
       <div>
-        <h1 className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello World</h1>
+        <h1 className="text-xs sm:text-base md:text-lg lg:text-3xl">
+          Hello World
+        </h1>
       </div>
       {/* Tailwind spacing */}
       <div>
@@ -19,9 +21,7 @@ export default function Home() {
       </div>
       {/* Tailwind layer background */}
       <div>
-        <h1>
-          Hello World
-        </h1>
+        <h1>Hello World</h1>
       </div>
       {/* Tailwind Typography Font Size base on config on tailwind.config.js */}
       <div>
@@ -180,6 +180,57 @@ export default function Home() {
         <p className="space-y-2.5">Hello World</p>
         <p className="space-y-3">Hello World</p>
         <p className="space-y-3.5">Hello World</p>
+      </div>
+      {/*---------------------------------------*/}
+      {/* Tailwind Flexbox & Grid */}
+      {/* Tailwind Flexbox */}
+      <div className="flex">
+        <p className="flex-1">Hello World</p>
+        <p className="flex-2">Hello World</p>
+        <p className="flex-3">Hello World</p>
+        <p className="flex-4">Hello World</p>
+        <p className="flex-5">Hello World</p>
+        <p className="flex-6">Hello World</p>
+      </div>
+      {/* Tailwind Flex Direction */}
+      <div className="flex">
+        <p className="flex-row">Hello World</p>
+        <p className="flex-row-reverse">Hello World</p>
+        <p className="flex-col">Hello World</p>
+        <p className="flex-col-reverse">Hello World</p>
+      </div>
+      {/* Tailwind Flex Wrap */}
+      <div className="flex">
+        <p className="flex-wrap">Hello World</p>
+        <p className="flex-wrap-reverse">Hello World</p>
+        <p className="flex-nowrap">Hello World</p>
+      </div>
+      {/* Tailwind Justify Content */}
+      <div className="flex">
+        <p className="justify-start">Hello World</p>
+        <p className="justify-end">Hello World</p>
+        <p className="justify-center">Hello World</p>
+        <p className="justify-between">Hello World</p>
+        <p className="justify-around">Hello World</p>
+        <p className="justify-evenly">Hello World</p>
+      </div>
+      {/* Tailwind Align Items */}
+      <div className="flex">
+        <p className="items-start">Hello World</p>
+        <p className="items-end">Hello World</p>
+        <p className="items-center">Hello World</p>
+      </div>
+      {/* Tailwind Flex Grow */}
+      <div className="flex">
+        <p className="grow">Hello World</p>
+        <p className="grow-0">Hello World</p>
+      </div>
+      {/* Tailwind Flex Basis */}
+      <div className="flex">
+        <p className="basis-0">Hello World</p>
+        <p className="basis-auto">Hello World</p>
+        <p className="basis-100">Hello World</p>
+        <p className="basis-1fr">Hello World</p>
       </div>
     </div>
   );
