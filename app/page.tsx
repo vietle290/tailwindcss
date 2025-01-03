@@ -116,6 +116,22 @@ export default function Home() {
         <p className="mx-0">Hello World</p>
         <p className="my-0">Hello World</p>
       </div>
+      {/* Tailwind Width */}
+      <div>
+        <p className="w-0">Hello World</p>
+        <p className="w-px">Hello World</p>
+        <p className="w-0.5">Hello World</p>
+        <p className="w-1">Hello World</p>
+        <p className="w-1.5">Hello World</p>
+      </div>
+      <div className="flex w-full">
+        <p className="w-1/2">Hello World</p>
+        <p className="w-1/3">Hello World</p>
+        <p className="w-1/4">Hello World</p>
+        <p className="w-1/5">Hello World</p>
+        <p className="w-2/5">Hello World</p>
+      </div>
+      {/* Tailwind Height */}
     </div>
   );
 }
