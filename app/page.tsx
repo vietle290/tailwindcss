@@ -132,6 +132,14 @@ export default function Home() {
         <p className="w-2/5">Hello World</p>
       </div>
       {/* Tailwind Height */}
+      <div>
+        <p className="h-0">Hello World</p>
+        <p className="h-px">Hello World</p>
+        <p className="h-0.5">Hello World</p>
+        <p className="h-1">Hello World</p>
+        <p className="h-1.5">Hello World</p>
+        <p className="h-auto">Hello World</p>
+      </div>
     </div>
   );
 }
