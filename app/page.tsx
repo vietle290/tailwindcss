@@ -162,6 +162,25 @@ export default function Home() {
         <p className="max-h-min">Hello World</p>
         <p className="max-h-max">Hello World</p>
       </div>
+      {/* Tailwind Space Between */}
+      <div>
+        <p className="space-x-0">Hello World</p>
+        <p className="space-x-0.5">Hello World</p>
+        <p className="space-x-1">Hello World</p>
+        <p className="space-x-1.5">Hello World</p>
+        <p className="space-x-2">Hello World</p>
+        <p className="space-x-2.5">Hello World</p>
+        <p className="space-x-3">Hello World</p>
+        <p className="space-x-3.5">Hello World</p>
+        <p className="space-y-0">Hello World</p>
+        <p className="space-y-0.5">Hello World</p>
+        <p className="space-y-1">Hello World</p>
+        <p className="space-y-1.5">Hello World</p>
+        <p className="space-y-2">Hello World</p>
+        <p className="space-y-2.5">Hello World</p>
+        <p className="space-y-3">Hello World</p>
+        <p className="space-y-3.5">Hello World</p>
+      </div>
     </div>
   );
 }
