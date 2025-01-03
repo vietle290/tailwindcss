@@ -140,6 +140,28 @@ export default function Home() {
         <p className="h-1.5">Hello World</p>
         <p className="h-auto">Hello World</p>
       </div>
+      {/* Tailwind Min & Max Width */}
+      <div>
+        <p className="min-w-0">Hello World</p>
+        <p className="min-w-full">Hello World</p>
+        <p className="min-w-min">Hello World</p>
+        <p className="min-w-max">Hello World</p>
+        <p className="max-w-0">Hello World</p>
+        <p className="max-w-full">Hello World</p>
+        <p className="max-w-min">Hello World</p>
+        <p className="max-w-max">Hello World</p>
+      </div>
+      {/* Tailwind Min & Max Height */}
+      <div>
+        <p className="min-h-0">Hello World</p>
+        <p className="min-h-full">Hello World</p>
+        <p className="min-h-min">Hello World</p>
+        <p className="min-h-max">Hello World</p>
+        <p className="max-h-0">Hello World</p>
+        <p className="max-h-full">Hello World</p>
+        <p className="max-h-min">Hello World</p>
+        <p className="max-h-max">Hello World</p>
+      </div>
     </div>
   );
 }
