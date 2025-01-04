@@ -232,6 +232,54 @@ export default function Home() {
         <p className="basis-100">Hello World</p>
         <p className="basis-1fr">Hello World</p>
       </div>
+
+      {/*---------------------------------------*/}
+      {/* Tailwind Grid */}
+      <div className="grid">
+        <p className="grid-cols-1">Hello World</p>
+        <p className="grid-cols-2">Hello World</p>
+        <p className="grid-cols-3">Hello World</p>
+        <p className="grid-cols-4">Hello World</p>
+        <p className="grid-cols-5">Hello World</p>
+        <p className="grid-cols-6">Hello World</p>
+      </div>
+      {/* Tailwind Grid Template */}
+      <div className="grid">
+        <p className="grid-cols-1 grid-rows-1">Hello World</p>
+        <p className="grid-cols-2 grid-rows-2">Hello World</p>
+        <p className="grid-cols-3 grid-rows-3">Hello World</p>
+        <p className="grid-cols-4 grid-rows-4">Hello World</p>
+        <p className="grid-cols-5 grid-rows-5">Hello World</p>
+        <p className="grid-cols-6 grid-rows-6">Hello World</p>
+      </div>
+      {/* Tailwind Grid Screen */}
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
+        <div className="col-span-1 col-start-2 p-3">1</div>
+        <div className="col-span-1 p-3">2</div>
+        <div className="col-span-1 p-3">3</div>
+        <div className="col-span-1 p-3">4</div>
+        <div className="col-start-1 p-3">5</div>
+        <div className="col-end-3 p-3">6</div>
+      </div>
+      {/*Tailwind Grid Auto Columns*/}
+      <div className="grid grid-flow-col auto-cols-max">
+        <div className="p-3">1</div>
+        <div className="p-3">2</div>
+        <div className="p-3">3</div>
+        <div className="p-3">4</div>
+        <div className="p-3">5</div>
+        <div className="p-3">6</div>
+      </div>
+      {/*Tailwind Grid Auto Rows*/}
+      <div className="grid grid-flow-row auto-rows-max">
+        <div className="p-3">1</div>
+        <div className="p-3">2</div>
+        <div className="p-3">3</div>
+        <div className="p-3">4</div>
+        <div className="p-3">5</div>
+        <div className="p-3">6</div>
+      </div>
+      
     </div>
   );
 }
