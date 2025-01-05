@@ -458,6 +458,26 @@ export default function Home() {
       <div className="outline outline-8 outline-blue-500">
         <p>Outline 8</p>
       </div>
+      {/*---------------------------------------*/}
+      {/* Tailwind Hover */}
+      <div className="hover:bg-gray-100">
+        <p>Hover Background</p>
+      </div>
+      <div className="focus:bg-gray-100">
+        <p>Focus Background</p>
+      </div>
+      <div className="active:bg-gray-100">
+        <p>Active Background</p>
+      </div>
+      <div className="disabled:bg-gray-100">
+        <p>Disabled Background</p>
+      </div>
+      <div className="group-hover:bg-gray-100">
+        <p>Group Hover Background</p>
+      </div>
+      <div className="peer-hover:bg-gray-100">
+        <p>Peer Hover Background</p>
+      </div>
     </div>
   );
 }
