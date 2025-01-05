@@ -308,6 +308,16 @@ export default function Home() {
       <div className="flex flex-col">
         <p>Flex Column</p>
       </div>
+      {/*Tailwind Floats*/}
+      <div className="float-left">
+        <p>Float Left</p>
+      </div>
+      <div className="float-right">
+        <p>Float Right</p>
+      </div>
+      <div className="float-none">
+        <p>Float None</p>
+      </div>
     </div>
   );
 }
