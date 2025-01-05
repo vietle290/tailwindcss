@@ -318,6 +318,19 @@ export default function Home() {
       <div className="float-none">
         <p>Float None</p>
       </div>
+      {/*Tailwind Clear*/}
+      <div className="clear-both">
+        <p>Clear Both</p>
+      </div>
+      <div className="clear-left">
+        <p>Clear Left</p>
+      </div>
+      <div className="clear-right">
+        <p>Clear Right</p>
+      </div>
+      <div className="clear-none">
+        <p>Clear None</p>
+      </div>
     </div>
   );
 }
