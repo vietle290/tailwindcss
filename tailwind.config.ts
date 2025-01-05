@@ -75,7 +75,10 @@ export default {
       11: "2.75rem",
       12: "3rem",
       13: "3.25rem",
-    }
+    },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 } satisfies Config;

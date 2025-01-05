@@ -279,7 +279,11 @@ export default function Home() {
         <div className="p-3">5</div>
         <div className="p-3">6</div>
       </div>
-      
+      {/*Tailwind Container*/}
+      <div className="container mx-auto">
+        <div className="p-3">1</div>
+        <div className="p-3">2</div>
+      </div>
     </div>
   );
 }
