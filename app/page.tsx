@@ -358,6 +358,10 @@ export default function Home() {
       <div className="collapse">
         <p>Collapse</p>
       </div>
+      {/*Tailwind Z-Index*/}
+      <div className="z-10">
+        <p>Z-Index 10</p>
+      </div>
     </div>
   );
 }
