@@ -362,6 +362,10 @@ export default function Home() {
       <div className="z-10">
         <p>Z-Index 10</p>
       </div>
+      {/*Tailwind Object Position*/}
+      <div className="object-cover">
+        <img src="https://example.com/image.jpg" alt="Example Image" />
+      </div>
     </div>
   );
 }
