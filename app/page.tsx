@@ -342,6 +342,13 @@ export default function Home() {
           <p>Fixed</p>
         </div>
       </div>
+      {/*Tailwind Overflow*/}
+      <div className="overflow-auto">
+        <div className="overflow-y-hidden">
+          <p>Overflow Y Hidden</p>
+        </div>
+      </div>
+      
     </div>
   );
 }
