@@ -331,6 +331,17 @@ export default function Home() {
       <div className="clear-none">
         <p>Clear None</p>
       </div>
+      {/*Tailwind Position*/}
+      <div className="relative">
+        <div className="absolute top-0 left-0 right-0 bottom-0">
+          <p>Absolute</p>
+        </div>
+      </div>
+      <div className="relative">
+        <div className="fixed">
+          <p>Fixed</p>
+        </div>
+      </div>
     </div>
   );
 }
