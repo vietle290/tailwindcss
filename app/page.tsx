@@ -378,6 +378,86 @@ export default function Home() {
       <div className="break-inside-auto">
         <p>Break Inside Auto</p>
       </div>
+      {/*---------------------------------------*/}
+      {/* Tailwind Border */}
+      <div className="border">
+        <p>Border</p>
+      </div>
+      <div className="border-t">
+        <p>Border Top</p>
+      </div>
+      <div className="border-r">
+        <p>Border Right</p>
+      </div>
+      <div className="border-b">
+        <p>Border Bottom</p>
+      </div>
+      <div className="border-l">
+        <p>Border Left</p>
+      </div>
+      <div className="border-y">
+        <p>Border Y</p>
+      </div>
+      <div className="border-x">
+        <p>Border X</p>
+      </div>
+      <div className="border-t-2 border-blue-500">
+        <p>Border Top 2</p>
+      </div>
+      <div className="divide-y">
+        <p>Divide Y</p>
+      </div>
+      <div className="divide-x">
+        <p>Divide X</p>
+      </div>
+      <div className="divide-y-2 divide-blue-500">
+        <p>Divide Y 2</p>
+      </div>
+      <div className="divide-x-2 divide-blue-500">
+        <p>Divide X 2</p>
+      </div>
+      {/*Tailwind Border Style */}
+      <div className="border-solid border-blue-500">
+        <p>Border Solid</p>
+      </div>
+      <div className="border-dashed border-blue-500">
+        <p>Border Dashed</p>
+      </div>
+      <div className="border-dotted border-blue-500">
+        <p>Border Dotted</p>
+      </div>
+      <div className="border-double border-blue-500">
+        <p>Border Double</p>
+      </div>
+      <div className="border-hidden border-blue-500">
+        <p>Border Hidden</p>
+      </div>
+      <div className="border-none border-blue-500">
+        <p>Border None</p>
+      </div>
+      {/*Tailwind Border Width */}
+      <div className="border-2 border-blue-500">
+        <p>Border 2</p>
+      </div>
+      <div className="border-4 border-blue-500">
+        <p>Border 4</p>
+      </div>
+      <div className="border-8 border-blue-500">
+        <p>Border 8</p>
+      </div>
+      {/*Tailwind Border Outline */}
+      <div className="outline-none">
+        <p>Outline None</p>
+      </div>
+      <div className="outline outline-2 outline-blue-500">
+        <p>Outline 2</p>
+      </div>
+      <div className="outline outline-4 outline-blue-500">
+        <p>Outline 4</p>
+      </div>
+      <div className="outline outline-8 outline-blue-500">
+        <p>Outline 8</p>
+      </div>
     </div>
   );
 }
