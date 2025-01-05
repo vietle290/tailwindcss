@@ -292,6 +292,22 @@ export default function Home() {
         <p>Column 2</p>
         <p>Column 3</p>
       </div>
+      {/*Tailwind Display*/}
+      <div className="block">
+        <p>Block</p>
+      </div>
+      <div className="inline">
+        <p>Inline</p>
+      </div>
+      <div className="hidden">
+        <p>Hidden</p>
+      </div>
+      <div className="inline-block">
+        <p>Inline-Block</p>
+      </div>
+      <div className="flex flex-col">
+        <p>Flex Column</p>
+      </div>
     </div>
   );
 }
