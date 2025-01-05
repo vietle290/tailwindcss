@@ -348,7 +348,16 @@ export default function Home() {
           <p>Overflow Y Hidden</p>
         </div>
       </div>
-      
+      {/*Tailwind Visibility*/}
+      <div className="visible">
+        <p>Visible</p>
+      </div>
+      <div className="invisible">
+        <p>Invisible</p>
+      </div>
+      <div className="collapse">
+        <p>Collapse</p>
+      </div>
     </div>
   );
 }
