@@ -366,6 +366,18 @@ export default function Home() {
       <div className="object-cover">
         <img src="https://example.com/image.jpg" alt="Example Image" />
       </div>
+      {/*Tailwind Break After*/}
+      <div className="break-after-auto">
+        <p>Break After Auto</p>
+      </div>
+      {/*Tailwind Break Before*/}
+      <div className="break-before-auto">
+        <p>Break Before Auto</p>
+      </div>
+      {/*Tailwind Breakinside*/}
+      <div className="break-inside-auto">
+        <p>Break Inside Auto</p>
+      </div>
     </div>
   );
 }
