@@ -548,6 +548,48 @@ export default function Home() {
         <p>Animation Spin</p>
       </div>
       {/*---------------------------------------*/}
+      {/* Tailwind Transform */}
+      {/*Tailwind Transform Scale*/}
+      <div className="scale-100">
+        <p>Scale 100</p>
+      </div>
+      <div className="scale-75">
+        <p>Scale 75</p>
+      </div>
+      {/*Tailwind Transform Rotate*/}
+      <div className="rotate-0">
+        <p>Rotate 0</p>
+      </div>
+      <div className="rotate-45">
+        <p>Rotate 45</p>
+      </div>
+      <div className="rotate-90">
+        <p>Rotate 90</p>
+      </div>
+      {/*Tailwind Transform Translate*/}
+      <div className="translate-x-0 translate-y-0">
+        <p>Translate X 0 Y 0</p>
+      </div>
+      <div className="translate-x-1 translate-y-1">
+        <p>Translate X 1 Y 1</p>
+      </div>
+      {/*Tailwind Transform Skew*/}
+      <div className="skew-x-0 skew-y-0">
+        <p>Skew X 0 Y 0</p>
+      </div>
+      <div className="skew-x-1 skew-y-1">
+        <p>Skew X 1 Y 1</p>
+      </div>
+      {/*Tailwind Transform Origin*/}
+      <div className="origin-top origin-left">
+        <p>Origin Top Left</p>
+      </div>
+      <div className="origin-top origin-center">
+        <p>Origin Top Center</p>
+      </div>
+      <div className="origin-top origin-right">
+        <p>Origin Top Right</p>
+      </div>
     </div>
   );
 }
