@@ -516,6 +516,38 @@ export default function Home() {
       <div className="mix-blend-multiply">
         <p>Mix Blend Multiply</p>
       </div>
+      {/*---------------------------------------*/}
+      {/* Tailwind Animation */}
+      {/*Tailwind Transition Property*/}
+      <div className="transition-all duration-300">
+        <p>Transition All</p>
+      </div>
+      <div className="transition-colors duration-300">
+        <p>Transition Colors</p>
+      </div>
+      <div className="transition-opacity duration-300">
+        <p>Transition Opacity</p>
+      </div>
+      <div className="transition duration-300">
+        <p>Transition</p>
+      </div>
+      {/*Tailwind Transition Duration*/}
+      <div className="duration-300">
+        <p>Duration 300</p>
+      </div>
+      {/*Tailwind Transition Timing Function*/}
+      <div className="ease-in-out duration-300">
+        <p>Ease In Out</p>
+      </div>
+      {/*Tailwind Transition Delay*/}
+      <div className="delay-300">
+        <p>Delay 300</p>
+      </div>
+      {/*Tailwind Transition Animation*/}
+      <div className="animation-spin duration-300 infinite ease-in-out">
+        <p>Animation Spin</p>
+      </div>
+      {/*---------------------------------------*/}
     </div>
   );
 }
