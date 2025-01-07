@@ -478,6 +478,44 @@ export default function Home() {
       <div className="peer-hover:bg-gray-100">
         <p>Peer Hover Background</p>
       </div>
+      {/*---------------------------------------*/}
+      {/* Tailwind Effect */}
+      {/*Tailwind Box Shadow*/}
+      <div className="shadow-md">
+        <p>Shadow</p>
+      </div>
+      <div className="shadow-inner">
+        <p>Shadow Inner</p>
+      </div>
+      <div className="shadow-lg">
+        <p>Shadow Lg</p>
+      </div>
+      <div className="shadow-xl">
+        <p>Shadow Xl</p>
+      </div>
+      <div className="shadow-2xl">
+        <p>Shadow 2xl</p>
+      </div>
+      <div className="shadow-none">
+        <p>Shadow None</p>
+      </div>
+      {/*Tailwind Opacity*/}
+      <div className="opacity-0">
+        <p>Opacity 0</p>
+      </div>
+      <div className="opacity-25">
+        <p>Opacity 25</p>
+      </div>
+      <div className="opacity-50">
+        <p>Opacity 50</p>
+      </div>
+      {/*Tailwind Mix Blend Mode*/}
+      <div className="mix-blend-normal">
+        <p>Mix Blend Normal</p>
+      </div>
+      <div className="mix-blend-multiply">
+        <p>Mix Blend Multiply</p>
+      </div>
     </div>
   );
 }
